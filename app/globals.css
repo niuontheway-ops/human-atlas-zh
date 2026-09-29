@@ -97,3 +97,9 @@ h1 .edition{font-family:inherit;font-weight:500;font-size:10px;letter-spacing:.0
 .identity-brand{display:flex;gap:14px;align-items:center}.brand-logo{width:72px;height:72px;object-fit:contain;border-radius:10px;flex-shrink:0}.edition-credits{display:flex;flex-direction:column;gap:3px;margin-top:12px;font-size:11px;line-height:1.5;color:#657580}.edition-credits strong{font-weight:500;color:#386963}
 @media(max-width:767px){.identity-brand{gap:8px}.brand-logo{width:42px;height:42px;border-radius:6px}.identity h1{font-size:20px;margin:6px 0}.identity h1 .edition{display:none}.identity-meta{font-size:8px;white-space:nowrap}.identity .eyebrow{font-size:8px;letter-spacing:.06em}.edition-credits{font-size:10px;gap:1px;margin-top:8px;line-height:1.5}.view-controls{top:max(138px,calc(env(safe-area-inset-top) + 120px))}.search-panel{top:max(138px,calc(env(safe-area-inset-top) + 120px))}}
 @media(max-height:600px) and (orientation:landscape){.brand-logo{width:48px;height:48px}.identity h1{font-size:23px}.edition-credits{font-size:10px;gap:1px;margin-top:6px}.view-controls{top:76px}.search-panel{top:72px}}
+
+/* A small cartoon in the empty right margin. */
+.house-feature{position:absolute;right:99px;top:190px;width:198px;z-index:5;pointer-events:none}.house-feature.is-hidden{display:none}.house-feature img{display:block;width:100%;height:auto;max-height:300px;object-fit:contain;filter:drop-shadow(0 10px 20px #263b4822)}
+@media(max-width:1000px){.house-feature{right:72px;width:150px;top:185px}}
+@media(max-width:767px){.house-feature{right:10px;top:203px;width:92px}.house-feature img{max-height:137px}}
+@media(max-height:600px) and (orientation:landscape){.house-feature{top:138px;right:13px;width:94px}.house-feature img{max-height:132px}}
